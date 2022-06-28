@@ -2,13 +2,17 @@ import src.KataTeamProyect.main
 
 program = src.KataTeamProyect.main
 
-def __init__(opt):
+program.CreateRange(input())
+program.CreateRange(input())
+def seleccionarOpcion(opt):
     match opt:
         case 1:
-            return
+            return program.integer_range_contains()
         case 2:
-            return
+            return program.ContainsRange()
         case 3:
-            return
+            return program.endPoints()
         case 4: 
-            return
+            return program.Equals()
+            
+            
